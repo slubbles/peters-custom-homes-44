@@ -54,10 +54,10 @@ export default function AboutPage() {
             Peters Custom Homes was founded with a singular mission: to elevate the standard of residential building in the Charlotte region through craftsmanship, integrity, and an uncompromising standard of excellence.
           </Lede>
           <Body>
-            ["As a boutique luxury home builder in Charlotte, we intentionally limit our annual volume. This deliberate approach ensures that every family we serve receives the attention, communication, and craftsmanship their residence deserves.",
+{["As a boutique luxury home builder in Charlotte, we intentionally limit our annual volume. This deliberate approach ensures that every family we serve receives the attention, communication, and craftsmanship their residence deserves.",
             "Our reputation is built through completed work, documented project experience, and the trust clients place in our team.",
-            "From new custom home construction and luxury estate renovations to private client advisory, we guide families through the most meaningful investment they will make outside their family."]
-          </Body>
+            "From new custom home construction and luxury estate renovations to private client advisory, we guide families through the most meaningful investment they will make outside their family."]}
+</Body>
           <blockquote
             style={{
               marginTop: 40,
@@ -82,11 +82,11 @@ export default function AboutPage() {
             <H2>Founded on Principle, Built on Trust</H2>
           </div>
           <Body>
-            ["Peters Custom Homes was established in 2016 by Nicholas Peters with a conviction that Charlotte deserved a custom home builder organized around a smaller calendar and a higher standard.",
+{["Peters Custom Homes was established in 2016 by Nicholas Peters with a conviction that Charlotte deserved a custom home builder organized around a smaller calendar and a higher standard.",
             "From its earliest days, the firm operated on a principle that remains central to its identity: build fewer homes, and give each one the leadership it requires.",
             "This disciplined approach has earned the trust of Charlotte's most discerning families and produced a portfolio of architecturally significant residences.",
-            "Today, the firm's reputation is built on a foundation of completed estates that speak for themselves — homes that endure architecturally, structurally, and emotionally."]
-          </Body>
+            "Today, the firm's reputation is built on a foundation of completed estates that speak for themselves — homes that endure architecturally, structurally, and emotionally."]}
+</Body>
         </div>
         <style>{`@media (max-width: 900px){ [data-band-about] { grid-template-columns: 1fr !important; gap: 32px !important; } }`}</style>
       </Band>
@@ -124,8 +124,8 @@ export default function AboutPage() {
             <Kicker>Our Approach</Kicker>
             <H2>The Peters Method</H2>
             <Body>
-              ["Every Peters Custom Homes engagement follows a disciplined five-step process that ensures architectural integrity, financial clarity, and an exceptional finished residence."]
-            </Body>
+{["Every Peters Custom Homes engagement follows a disciplined five-step process that ensures architectural integrity, financial clarity, and an exceptional finished residence."]}
+</Body>
             <Link href="/process" style={{ color: "var(--fg)", fontSize: 14, letterSpacing: "0.16em", textTransform: "uppercase", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid var(--brass, #A8894A)", paddingBottom: 5, display: "inline-block", marginTop: 24 }}>
               The Full Process
             </Link>
@@ -177,8 +177,8 @@ export default function AboutPage() {
             <div className="eyebrow" style={{ marginBottom: 12 }}>President & CEO</div>
             <div style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: 30 }}>Nicholas Peters</div>
             <Body>
-              ["As President & CEO, Nicholas remains personally involved in every residence from concept through completion. He leads pre-construction planning, budgeting, design coordination, and the daily construction oversight that defines the firm."]
-            </Body>
+{["As President & CEO, Nicholas remains personally involved in every residence from concept through completion. He leads pre-construction planning, budgeting, design coordination, and the daily construction oversight that defines the firm."]}
+</Body>
             <p style={{ marginTop: 18, fontSize: 15.5 }}>
               <a href="tel:+17042644572" style={{ color: "var(--fg)", textDecoration: "none", borderBottom: "1px solid var(--brass, #A8894A)" }}>704-264-4572</a>
               {" · "}
@@ -189,8 +189,8 @@ export default function AboutPage() {
             <div className="eyebrow" style={{ marginBottom: 12 }}>Co-Owner & Design Director</div>
             <div style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: 30 }}>Miriam Peters</div>
             <Body>
-              ["As Co-Owner, Design Director, and Founder of Emerald & Oak Design Studio, Miriam leads the interior architecture and material selections that complete every Peters Custom Homes residence."]
-            </Body>
+{["As Co-Owner, Design Director, and Founder of Emerald & Oak Design Studio, Miriam leads the interior architecture and material selections that complete every Peters Custom Homes residence."]}
+</Body>
             <p style={{ marginTop: 18, fontSize: 15.5 }}>
               <a href="tel:+17042644080" style={{ color: "var(--fg)", textDecoration: "none", borderBottom: "1px solid var(--brass, #A8894A)" }}>704-264-4080</a>
               {" · "}

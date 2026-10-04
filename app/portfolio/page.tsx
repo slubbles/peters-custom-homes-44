@@ -108,13 +108,13 @@ export default function PortfolioPage() {
         <H2>Crafted with Precision, Built with Purpose</H2>
         <div style={{ marginTop: 28, maxWidth: 940 }}>
           <Lede>
-            ["Each residence we build is a reflection of the people who live within it — thoughtful, intentional, and deeply personal."]
-          </Lede>
+{            ["Each residence we build is a reflection of the people who live within it — thoughtful, intentional, and deeply personal."]}
+</Lede>
           <Body>
-            ["At Peters Custom Homes, our work spans luxury custom construction, large-scale renovations, and legacy estate homes across the Charlotte region.",
+{["At Peters Custom Homes, our work spans luxury custom construction, large-scale renovations, and legacy estate homes across the Charlotte region.",
             "Over the years, we have constructed 50+ multi-million dollar residences. Many of these homes are built for clients who value privacy; they are not shown publicly.",
-            "Rather than showcase every project, we present a curated collection that reflects the level of execution, detail, and standards that define our firm."]
-          </Body>
+            "Rather than showcase every project, we present a curated collection that reflects the level of execution, detail, and standards that define our firm."]}
+</Body>
         </div>
       </Band>
 
@@ -125,9 +125,9 @@ export default function PortfolioPage() {
             <H2>True Luxury Is Built on Trust</H2>
             <div style={{ marginTop: 26 }}>
               <Body>
-                ["We believe true luxury is not defined by visibility, but by experience, trust, and the relationships we build with our clients.",
-                "For this reason, the majority of the homes we construct remain private. The residences shown here are a carefully selected group shared with client permission."]
-              </Body>
+{["We believe true luxury is not defined by visibility, but by experience, trust, and the relationships we build with our clients.",
+                "For this reason, the majority of the homes we construct remain private. The residences shown here are a carefully selected group shared with client permission."]}
+</Body>
             </div>
           </div>
           <div>
@@ -135,11 +135,11 @@ export default function PortfolioPage() {
             <H2>Experience Informs Every Detail</H2>
             <div style={{ marginTop: 26 }}>
               <Body>
-                ["We believe true luxury requires a practical understanding of how estate-level materials, systems, and finishes perform — over years, not weeks.",
+{["We believe true luxury requires a practical understanding of how estate-level materials, systems, and finishes perform — over years, not weeks.",
                 "There is a difference between selecting products and truly knowing them.",
                 "Years of hands-on construction experience give us a clear view of how materials age, how systems function, and how spaces actually live.",
-                "Luxury is not just about appearance. It is about performance, longevity, and the way a home lives day after day."]
-              </Body>
+                "Luxury is not just about appearance. It is about performance, longevity, and the way a home lives day after day."]}
+</Body>
             </div>
           </div>
         </div>

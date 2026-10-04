@@ -82,9 +82,9 @@ export default function ContactPage() {
         <H2>Charlotte Custom Home Builder Office</H2>
         <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: 56, alignItems: "center" }}>
           <Body>
-            ["Located in the heart of SouthPark, our office serves as the starting point for families building luxury custom homes across the region.",
-            "We meet by appointment — consultations, design reviews, and selection meetings are scheduled so every conversation gets undivided attention."]
-          </Body>
+{["Located in the heart of SouthPark, our office serves as the starting point for families building luxury custom homes across the region.",
+            "We meet by appointment — consultations, design reviews, and selection meetings are scheduled so every conversation gets undivided attention."]}
+</Body>
           <div style={{ border: "1px solid var(--hairline, rgba(28,25,22,0.14))", padding: "30px 34px" }}>
             <div className="eyebrow" style={{ marginBottom: 14 }}>Office</div>
             <div style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: 26, lineHeight: 1.4 }}>

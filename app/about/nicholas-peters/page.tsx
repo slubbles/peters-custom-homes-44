@@ -26,13 +26,13 @@ export default function NicholasPetersPage() {
         <H2>A Firm Founded on Purpose</H2>
         <div style={{ marginTop: 28, maxWidth: 940 }}>
           <Lede>
-            ["Since 2016, Peters Custom Homes has built a reputation as one of Charlotte's most respected luxury home builders — a practice organized around a deliberately small calendar and direct founder leadership."]
-          </Lede>
+{            ["Since 2016, Peters Custom Homes has built a reputation as one of Charlotte's most respected luxury home builders — a practice organized around a deliberately small calendar and direct founder leadership."]}
+</Lede>
           <Body>
-            ["Today, Peters Custom Homes is recognized for creating architecturally distinctive residences across the Charlotte region's most coveted neighborhoods.",
+{["Today, Peters Custom Homes is recognized for creating architecturally distinctive residences across the Charlotte region's most coveted neighborhoods.",
             "Unlike production builders or volume developers, our firm operates as a boutique practice. We intentionally limit annual production so founder-level attention is never divided.",
-            "For the families we serve, building a home is one of life's most meaningful investments. Our responsibility is to honor that."]
-          </Body>
+            "For the families we serve, building a home is one of life's most meaningful investments. Our responsibility is to honor that."]}
+</Body>
         </div>
       </Band>
 
@@ -41,11 +41,11 @@ export default function NicholasPetersPage() {
         <H2>Nicholas Peters</H2>
         <div style={{ marginTop: 28, maxWidth: 940 }}>
           <Body>
-            ["Nicholas Peters serves as President and Chief Executive Officer of Peters Custom Homes, Inc., where he leads every residence the firm builds.",
+{["Nicholas Peters serves as President and Chief Executive Officer of Peters Custom Homes, Inc., where he leads every residence the firm builds.",
             "Known for his hands-on leadership style, Nicholas remains personally involved in every stage of the building process — from the first conversation about how a family lives to the final walkthrough.",
             "Over the course of his career, Nicholas has built a reputation throughout the Charlotte region for transparency, craftsmanship, and disciplined project management.",
-            "Clients value not only the homes his team builds, but the clarity and trust he brings to the process."]
-          </Body>
+            "Clients value not only the homes his team builds, but the clarity and trust he brings to the process."]}
+</Body>
           <blockquote
             style={{
               marginTop: 36,
@@ -68,9 +68,9 @@ export default function NicholasPetersPage() {
         <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: 64, alignItems: "start" }}>
           <div>
             <Body>
-              ["At Peters Custom Homes, we believe exceptional homes cannot be built at scale.",
-              "Our firm intentionally accepts a limited number of projects each year, allowing our team to devote the necessary attention to every residence."]
-            </Body>
+{["At Peters Custom Homes, we believe exceptional homes cannot be built at scale.",
+              "Our firm intentionally accepts a limited number of projects each year, allowing our team to devote the necessary attention to every residence."]}
+</Body>
             <p style={{ marginTop: 18, fontSize: 16, color: "var(--muted, #6f675c)" }}>
               This approach allows us to maintain the same principles that have defined our work since the beginning:
             </p>
@@ -99,10 +99,10 @@ export default function NicholasPetersPage() {
         <H2>A Reputation Built on Trust</H2>
         <div style={{ marginTop: 28, maxWidth: 940 }}>
           <Body>
-            ["The strength of Peters Custom Homes is reflected in the relationships we maintain with our clients and professional partners.",
+{["The strength of Peters Custom Homes is reflected in the relationships we maintain with our clients and professional partners.",
             "Our BBB A+ rating, a 4.9-star reputation across more than seventy verified reviews, and BuildZoom recognition among the top 1% of North Carolina contractors document that record.",
-            "But the recognition we value most comes from the families who return to us for future projects and recommend us to their neighbors."]
-          </Body>
+            "But the recognition we value most comes from the families who return to us for future projects and recommend us to their neighbors."]}
+</Body>
         </div>
       </Band>
 
@@ -111,11 +111,11 @@ export default function NicholasPetersPage() {
         <H2>A Collaborative Platform</H2>
         <div style={{ marginTop: 28, maxWidth: 940 }}>
           <Body>
-            ["Many of our projects are shaped through close collaboration with architects, designers, and trusted partners across the region.",
+{["Many of our projects are shaped through close collaboration with architects, designers, and trusted partners across the region.",
             "Nicholas Peters also leads Peters & Associates, a luxury real estate advisory firm serving families relocating to or within the Charlotte region.",
             "Interior design for many residences is developed in collaboration with Emerald & Oak Design Studio, the studio founded by Miriam Peters.",
-            "Together, these aligned relationships allow complex residential estates to be guided from concept through completion under one coordinated platform."]
-          </Body>
+            "Together, these aligned relationships allow complex residential estates to be guided from concept through completion under one coordinated platform."]}
+</Body>
           <div style={{ marginTop: 30, display: "flex", gap: 24, flexWrap: "wrap" }}>
             <Link href="/partners" style={{ color: "var(--fg)", fontSize: 14, letterSpacing: "0.16em", textTransform: "uppercase", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid var(--brass, #A8894A)", paddingBottom: 5 }}>
               People & Companies We Work With
@@ -134,9 +134,9 @@ export default function NicholasPetersPage() {
             {"“"}The homes we build today will become part of the Charlotte region’s architectural landscape for decades to come.{"”"}
           </p>
           <Body>
-            ["Our responsibility is to ensure that each one reflects thoughtful planning, disciplined construction, and an authentic respect for the families who will live there.",
-            "At Peters Custom Homes, our goal is simple: to build residences that endure — both structurally and in the lives of the families who call them home."]
-          </Body>
+{["Our responsibility is to ensure that each one reflects thoughtful planning, disciplined construction, and an authentic respect for the families who will live there.",
+            "At Peters Custom Homes, our goal is simple: to build residences that endure — both structurally and in the lives of the families who call them home."]}
+</Body>
         </div>
       </Band>
 
