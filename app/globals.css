@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@source "../app/**/*.{ts,tsx}";
+@source "../components/**/*.{ts,tsx}";
+@source "../lib/**/*.{ts,tsx}";
+
+/* THEME.css — real_estate. Paste after @import "tailwindcss". */
+@theme {
+  --color-background: #f4efe6;
+  --color-foreground: #1c1916;
+  --color-muted: #6f675c;
+  --font-display: var(--font-display), Georgia, serif;
+  --font-sans: var(--font-body), Inter, system-ui, sans-serif;
+  --radius-md: 8px;
+}
+:root {
+  --bg: #f4efe6;
+  --fg: #1c1916;
+  --muted: #6f675c;
+  --display: 68px;
+  --h1: 56px;
+  --h2: 40px;
+  --body: 17px;
+  --pad: 96px;
+  --radius: 8px;
+  --font-display: "Fraunces";
+  --font-body: "Outfit";
+}
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body), Inter, system-ui, sans-serif;
+  font-size: 17px;
+}
+h1, .display {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 68px;
+  line-height: 1.05;
+}
+h2 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 40px;
+}
+p, .measure {
+  font-size: 17px;
+  max-width: 70ch;
+}
+section, .band {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.hero, [data-hero] {
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.hero img, [data-hero] img {
+  width: 100%;
+  min-height: 80vh;
+  object-fit: cover;
+}
+@media (max-width: 640px) {
+  section, .band {
+    padding-top: 67px;
+    padding-bottom: 67px;
+  }
+}
+
+/* LOOK fold accent — one olive accent (Casa warm-paper + Base restraint) */
+:root {
+  --accent: #6B7040;
+  --color-accent: #6B7040;
+}
+/* brand brass accent from their crest */
+:root {
+  --brass: #A8894A;
+  --paper: #f4efe6;
+  --ink: #1c1916;
+  --hairline: rgba(28, 25, 22, 0.14);
+}
+
+/* tracked small caps used in corner-weighted chrome + eyebrows */
+.eyebrow {
+  font-family: var(--font-body), Inter, system-ui, sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* pill CTA — Casa's soft pill */
+.pill {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 12px 26px;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+/* photography */
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+/* selection */
+::selection {
+  background: #6B7040;
+  color: #f4efe6;
+}
