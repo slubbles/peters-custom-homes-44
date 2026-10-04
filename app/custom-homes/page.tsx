@@ -130,6 +130,22 @@ export default function CustomHomesPage() {
         <style>{`@media (max-width: 900px){ [data-ch-cols] { grid-template-columns: 1fr !important; gap: 32px !important; } }`}</style>
       </Band>
 
+      <Band>
+        <Kicker>Recent Estates</Kicker>
+        <H2>Work in the Same Standard</H2>
+        <PhotoRow
+          items={[
+            { name: "Highland Forest", href: "/portfolio/highland-forest", photo: "/photos/highland-forest-aerial.jpg", kicker: "Charlotte · 18,142 sq ft" },
+            { name: "Kings Manor", href: "/portfolio/kings-manor", photo: "/photos/kings-manor.jpg", kicker: "Weddington · 9,223 sq ft" },
+            { name: "Baltusrol", href: "/portfolio/baltusrol", photo: "/photos/baltusrol.jpg", kicker: "Charlotte · Quail Hollow" },
+            { name: "Little Kern", href: "/portfolio/little-kern", photo: "/photos/living-fireplace.jpg", kicker: "Charlotte · 15,000+ sq ft" },
+          ]}
+          cols={4}
+          ratio={300}
+          altPrefix="Peters estate"
+        />
+      </Band>
+
       <CloseBand
         kicker="Residences in Progress"
         title="Tour a Home Under Construction"
