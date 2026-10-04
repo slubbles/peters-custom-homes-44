@@ -1,18 +1,5 @@
 import type { Metadata } from "next";
-import {
-  InnerFold,
-  Lede,
-  Body,
-  H2,
-  H3,
-  Kicker,
-  Band,
-  PhotoRow,
-  FaqSection,
-  CloseBand,
-  StatRow,
-  QuoteBand,
-} from "@/app/components/Pages";
+import { InnerFold, Lede, Body, H2, H3, Kicker, Band, PhotoRow, FaqSection, CloseBand, StatRow, QuoteBand, } from "@/app/components/Pages";
 
 export const metadata: Metadata = {
   title: "Custom Home Portfolio | Charlotte NC Builder",

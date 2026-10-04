@@ -42,8 +42,8 @@ export function SiteHeader({ dark = false }: { dark?: boolean }) {
         <span
           style={{
             color: ink,
-            fontFamily: "var(--font-body), Inter, sans-serif",
-            fontSize: 14,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontSize: 15,
             letterSpacing: "0.2em",
             textTransform: "uppercase",
             fontWeight: 600,
@@ -110,7 +110,7 @@ export function SiteFooter() {
       style={{
         background: "#23261e",
         color: "#f4efe6",
-        padding: "72px 48px 40px",
+        padding: "var(--pad, 96px) 48px 40px",
       }}
     >
       <div

@@ -1,13 +1,5 @@
 import type { Metadata } from "next";
-import {
-  InnerFold,
-  Body,
-  H2,
-  H3,
-  Kicker,
-  Band,
-  FaqSection,
-} from "@/app/components/Pages";
+import { InnerFold, Body, H2, H3, Kicker, Band, FaqSection, } from "@/app/components/Pages";
 import { Inquiry } from "../components/Shared";
 
 export const metadata: Metadata = {

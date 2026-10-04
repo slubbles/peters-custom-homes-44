@@ -2,19 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PORTFOLIO } from "@/lib/portfolio";
-import {
-  InnerFold,
-  Lede,
-  Body,
-  H2,
-  H3,
-  Kicker,
-  Band,
-  PhotoRow,
-  FaqSection,
-  CloseBand,
-  StatRow,
-} from "@/app/components/Pages";
+import { InnerFold, Lede, Body, H2, H3, Kicker, Band, PhotoRow, FaqSection, CloseBand, StatRow, } from "@/app/components/Pages";
 
 /* PORTFOLIO DETAIL — one residence per route, facts + story + gallery with captions. */
 

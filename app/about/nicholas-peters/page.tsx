@@ -1,14 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  InnerFold,
-  Lede,
-  Body,
-  H2,
-  Kicker,
-  Band,
-  CloseBand,
-} from "@/app/components/Pages";
+import { InnerFold, Lede, Body, H2, Kicker, Band, CloseBand, } from "@/app/components/Pages";
 
 export const metadata: Metadata = {
   title: "Nicholas Peters | Founder, Peters Custom Homes",

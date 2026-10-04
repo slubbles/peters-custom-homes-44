@@ -1,19 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  InnerFold,
-  Lede,
-  Body,
-  H2,
-  Kicker,
-  StatRow,
-  Band,
-  PhotoRow,
-  FaqSection,
-  CloseBand,
-  DisclosureNote,
-  QuoteBand,
-} from "@/app/components/Pages";
+import { InnerFold, Lede, Body, H2, Kicker, StatRow, Band, PhotoRow, FaqSection, CloseBand, DisclosureNote, QuoteBand, } from "@/app/components/Pages";
 import { SectionHead } from "../components/Shared";
 
 export const metadata: Metadata = {
