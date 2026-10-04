@@ -1,13 +1,7 @@
-/* LAYOUT_FONTS.tsx — wire on <html> via app/layout.tsx. Geist deleted. */
-import { Fraunces, Outfit, Source_Sans_3 } from "next/font/google";
+/* LAYOUT_FONTS.tsx — copy the imports into app/layout.tsx.
+   Apply display.variable + body.variable on <html>. Delete Geist. */
+import { Outfit, Source_Sans_3 } from "next/font/google";
 
-const display = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-display",
-  weight: ["300", "400", "500", "600"],
-});
-
-const body = Outfit({ subsets: ["latin"], variable: "--font-body" });
-const support = Source_Sans_3({ subsets: ["latin"], variable: "--font-support" });
-
-export { display, body, support };
+const display = Outfit({ subsets: ["latin"], variable: "--font-display" });
+const body = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" });
+export { display, body };
